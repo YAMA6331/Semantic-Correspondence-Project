@@ -1,22 +1,41 @@
-# Semantic-Correspondence-Project
 
-Our project is based on Colab. All the codes and results can be found in the file "Semantic_Projrct5NoToken.ipynb", and the datasets(Spair71k\PF-willow\PF-pascal) is saved in my google drive and you can download the necessay files from "https://drive.google.com/drive/folders/18kP7eIIUHrXAgtU4BBXwxwx5d8fSIM5y?usp=drive_link"
+# Semantic Correspondence Project
 
----Dataset and traing models setup---
+This project implements Semantic Correspondence using foundation models (DINOv2, DINOv3, and SAM) on Google Colab.
 
-Before running the notebook, please follow these steps:
-1. Download the dataset files (SPair-71k, PF-Pascal, PF-Willow) and models already trained.
-2. Create a folder named Project_Semantic in the root of your Google Drive.
-3. Upload these files into this folder.
-4. Ensure your directory structure looks like this:
-My Drive/
+## Project Overview
+
+- **Main Notebook**: `Semantic_Projrct5NoToken.ipynb`
+- **Platform**: Google Colab (Requires GPU), Google drive
+- **Datasets**: SPair-71k, PF-Pascal, PF-Willow
+
+## Setup Instructions (Important)
+
+Since this project relies on large datasets and pre-trained model weights, you need to set up your Google Drive before running the notebook.
+
+### 1. Download Required Files
+Please download the datasets and pre-trained models from the following Google Drive link:
+[Download Datasets and Models Here](https://drive.google.com/drive/folders/18kP7eIIUHrXAgtU4BBXwxwx5d8fSIM5y?usp=drive_link)
+
+### 2. Configure Google Drive
+1.  Go to your Google Drive root directory (`My Drive`).
+2.  Create a new folder named `Project_Semantic`.
+3.  Upload the downloaded files into this folder.
+4.  **Critical:** Ensure your directory structure matches the tree below exactly, otherwise the code will fail to load the data.
+
+```text
+/content/drive/MyDrive/
 └── Project_Semantic/
     ├── SPair-71k.tar.gz
     ├── pf-pascal.zip
-    └── pf-willow.zip
+    ├── pf-willow.zip
     └── Training models/
         ├── dinov2_base_1L.pth
         ├── dinov2_base_2L.pth
         ├── dinov2_base_3L.pth
         └── dinov3_large_1L.pth
-5. Everything is done! Do it!
+```
+
+
+### 3. Hugging face token
+Pleas repalce all the [HF_TOKEN = "Your hugging face token here"] with your DINOv3 token to use this model, because I'm not suer whether is safe or not to put my token in Github with public :D
