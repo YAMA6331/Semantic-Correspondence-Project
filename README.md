@@ -39,6 +39,7 @@ Only the datasets and training models are needed, the results folder isn't used 
 ```
 5.  Everything is done, just do it ! 
 
+
 ### 3. Hugging face token
 Pleas repalce all the [HF_TOKEN = "Your hugging face token here"] with your DINOv3 token to use this model, because I'm not suer whether is safe or not to put my token in Github with public :D
 
