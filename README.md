@@ -5,6 +5,8 @@ This project implements Semantic Correspondence using foundation models (DINOv2,
 
 You could check our report in the folder.
 
+[Our project in Colab](https://colab.research.google.com/drive/1kIS0R3V8qacNrCSbM3-pJFaguBeECqOu?usp=sharing)
+
 ## Project Overview
 
 - **Main Notebook**: `Semantic_Projrct5NoToken.ipynb`
