@@ -10,7 +10,7 @@ You could check our report in the folder.
 ## Project Overview
 
 - **Main Notebook**: `Semantic_Projrct5NoToken.ipynb`
-- **Platform**: Google Colab (Requires GPU), Google drive
+- **Platform**: Google Colab , Google drive
 - **Datasets**: SPair-71k, PF-Pascal, PF-Willow
 
 ## Setup Instructions 
